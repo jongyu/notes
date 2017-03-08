@@ -37,6 +37,7 @@ java -version
 ```
 wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
 ```
+* 安装rpm包
 
 ```
 sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
@@ -56,44 +57,45 @@ mysql -u root
 ```
 sudo chown -R openscanner:openscanner /var/lib/mysql
 ```
-
+* 重启MySQL服务
 ```
 service mysqld restart
 ```
-
+* 登录MySQL
 ```
 mysql -u root
 ```
-
+* 设置密码
 ```
 set password for 'root'@'localhost' = password('123456');
 ```
-
+* 设置远程登录用户和密码
 ```
 grant all privileges on *.* to 'root'@'%' identified by '123456';
 ```
-
+* 刷新
 ```
 flush privileges;
 ```
 
 #### iptatble
+* 关闭firewall防火墙并停止服务
 ```
 systemctl stop firewalld.service
 ```
-
+* 禁止firewall开启启动
 ```
 systemctl disable firewalld.service
 ```
-
+* 安装iptable防火墙
 ```
 yum install iptables-services
 ```
-
+* 编辑iptable防火墙配置
 ```
 vi /etc/sysconfig/iptables
 ```
-
+* 添加以下内容
 ```
 # Firewall configuration written by system-config-firewall
 # Manual customization of this file is not recommended.
@@ -112,11 +114,11 @@ vi /etc/sysconfig/iptables
 -A FORWARD -j REJECT --reject-with icmp-host-prohibited
 COMMIT
 ```
-
+* 重启防火墙使配置生效
 ```
 systemctl restart iptables.service
 ```
-
+* 设置防火墙开机自启
 ```
 systemctl enable iptables.service
 ```
