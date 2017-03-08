@@ -3,35 +3,37 @@
 ### CentOS
 
 #### JDK
+* 解压JDK
 ```
 tar -zxvf jdk-8u101-linux-x64.tar.gz -C /home/Java
 ```
-
+* 编辑环境变量
 ```
 vi /etc/profile
 ```
-
+* 添加以下环境
 ```
 export JAVA_HOME=/home/Java/jdk1.8.0_101
 export JRE_HOME=${JAVA_HOME}/jre
 export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}
 export PATH=${JAVA_HOME}/bin:$PATH
 ```
-
+* 保存本退出键盘操作
 ```
 Ecs  --->  Shift + :  --->  wq
 ```
-
+* 刷新环境
 ```
 source /etc/profile
 ```
-
+* 显示Java版本
 ```
 java -version
 ```
 
-#### MySQL
+#### MySQL ContOS 7
 
+* 下载源
 ```
 wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
 ```
@@ -40,14 +42,17 @@ wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
 sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
 ```
 
+* 安装MySQL
 ```
 sudo yum install mysql-server
 ```
 
+* 登录MySQL
 ```
 mysql -u root
 ```
 
+* 上面命令可能会执行失败 so 执行下面这个完成
 ```
 sudo chown -R openscanner:openscanner /var/lib/mysql
 ```
