@@ -45,3 +45,18 @@ insert into 表名 (列表名) values(要插入的数据);
 或者
 insert into 表名 set 列表1=数据, 列表2=数据;
 ```
+
+4.更新数据
+```
+update 表名 set 列名1=数据1, 列名2=数据2,...[where clause];
+```
+
+5.删除数据
+```
+delete from 表名 [where clause];
+```
+
+6.查询数据
+```
+select 列名1,列名2 from 表名1,表名2[where clause];
+```
