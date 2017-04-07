@@ -109,6 +109,8 @@
 &nbsp;&nbsp;&nbsp;
 >*[Vue.js](src/JavaScript.md)*
 &nbsp;&nbsp;&nbsp;
+>*[jQueryEasyUI](src/jQueryEasyUI.md)*
+&nbsp;&nbsp;&nbsp;
 
 ### 数据库
 >*[SQL](src/SQL.md)*
