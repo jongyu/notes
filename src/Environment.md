@@ -60,8 +60,8 @@ export MAVEN_OPTS
 source /etc/profile
 ```
 * 全局阿里云远程仓库
-```
-<mirror>xml
+```xml
+<mirror>
     <id>alimaven</id>
     <name>aliyun maven</name>
     <url>http://maven.aliyun.com/nexus/content/groups/public</url>
