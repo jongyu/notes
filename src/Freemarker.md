@@ -1,3 +1,6 @@
+## Freemarker
+
+### Spring
 ```xml
 <bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
     <property name="templateLoaderPath" value="/"/>
