@@ -30,6 +30,16 @@
 >*[Velocity](src/Velocity.md)*
 &nbsp;&nbsp;&nbsp;
 
+### 类库
+>*[Lombok](src/Lombok.md)*
+&nbsp;&nbsp;&nbsp;
+>*[FastJson](src/FastJson.md)*
+&nbsp;&nbsp;&nbsp;
+>*[Druid](src/Druid.md)*
+&nbsp;&nbsp;&nbsp;
+>*[Jackson](src/Jackson.md)*
+&nbsp;&nbsp;&nbsp;
+
 ### 数据库
 >*[SQL](src/SQL.md)*
 &nbsp;&nbsp;&nbsp;
