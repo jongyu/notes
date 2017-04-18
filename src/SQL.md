@@ -24,12 +24,12 @@ drop database 数据库名;
 ### 数据表管理命令
 1.修改、添加、删除字段，字段改名，修改字段排序顺序，更改表名：
 ```sql
-alert table 表名 modify 需要修改的字段 修改的类型;
-alert table 表名 add 需要添加的新字段名 字段类型;
-alert table 表名 drop 需要删除的字段名;
-alert table 表名 change 原来的字段名 新的字段名 新的字段类型;
-alert table 表名 modify|add| 字段名 字段类型 first|after 字段名;
-alert table 原数据表名 rename 新数据表名;
+alter table 表名 modify 需要修改的字段 修改的类型;
+alter table 表名 add 需要添加的新字段名 字段类型;
+alter table 表名 drop 需要删除的字段名;
+alter table 表名 change 原来的字段名 新的字段名 新的字段类型;
+alter table 表名 modify|add| 字段名 字段类型 first|after 字段名;
+alter table 原数据表名 rename 新数据表名;
 ```
 
 2.创建有索引的表
