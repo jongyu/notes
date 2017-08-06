@@ -2,6 +2,25 @@
 
 ### CentOS
 
+#### 使用阿里云的源
+* 备份原来的配置
+```
+cp /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.bak
+```
+* 下载源
+```
+wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+wget -P /etc/yum.repos.d/ http://mirrors.aliyun.com/repo/epel-7.repo
+```
+* 清除原有的缓存
+```
+yum clean all
+```
+* 生成新的缓存yum
+```
+yum makecache
+```
+
 #### JDK
 * 解压JDK
 ```
@@ -13,10 +32,11 @@ vi /etc/profile
 ```
 * 添加以下环境
 ```
-export JAVA_HOME=/home/Java/jdk1.8.0_101
-export JRE_HOME=${JAVA_HOME}/jre
-export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}
-export PATH=${JAVA_HOME}/bin:$PATH
+JAVA_HOME=Java的解压目录如:/home/jdk1.8.0_141
+JRE_HOME=$JAVA_HOME/jre
+PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin
+CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
+export JAVA_HOME JRE_HOME PATH CLASSPATH
 ```
 * 保存本退出键盘操作
 ```
