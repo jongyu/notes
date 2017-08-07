@@ -36,10 +36,10 @@ hexo deploy
 hexo new page 'categories'
 ```
 ```
----
-title: categories
+title: 分类
 date: 2016-12-30 12:00:00
-type: categories
+type: "categories"
+comments: false
 ---
 ```
 
@@ -48,11 +48,11 @@ type: categories
 hexo new page 'tags'
 ```
 ```
----
-title: tags
+title: 标签
 date: 2016-12-30 12:00:00
-type: tags
---
+type: "tags"
+comments: false
+---
 ```
 
 关于
@@ -61,8 +61,9 @@ hexo new page 'about'
 ```
 ```
 ---
-title: about
+title: 关于
 date: 2016-12-30 12:00:00
-type: about
+type: "about"
+comments: false
 ---
 ```
