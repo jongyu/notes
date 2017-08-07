@@ -60,7 +60,6 @@ comments: false
 hexo new page 'about'
 ```
 ```
----
 title: 关于
 date: 2016-12-30 12:00:00
 type: "about"
