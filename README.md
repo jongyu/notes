@@ -11,7 +11,7 @@
 >[Flink](back-end/Flink.md)
 
 ##### 后端工具
->[Maven](back-end/tools/Maven.md)
+>[Maven](back-end/tools/Maven.md)	|
 >[Gradle](back-end/tools/Gradle.md)
 
 #### 测试
