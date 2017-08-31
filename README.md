@@ -1,4 +1,4 @@
-## 文档
+### 文档
 
-### 工具
->*[IDEA](src/IDEA.md)*
+#### 工具
+> *[IDEA](tools/IDEA.md)*
