@@ -1,8 +1,8 @@
 ### 文档
 
 #### 前端
->*[Hexo](fore-end/HexoBlog.md) |*
->*[jQuery](fore-end/jQuery.md)*
+>[Hexo](fore-end/HexoBlog.md) |
+>[jQuery](fore-end/jQuery.md)
 
 ##### 前端工具
 >*[Markdown](fore-end/tools/Markdown.md)*
