@@ -10,6 +10,11 @@
 #### 后端
 >[Flink](back-end/Flink.md)
 
+##### 模板引擎
+>[Thymeleaf](back-end/Thymeleaf.md)	|
+>[Freemarker](back-end/Freemarker.md)	|
+>[Velocity](back-end/Velocity.md)	
+
 ##### 后端工具
 >[Maven](back-end/tools/Maven.md)	|
 >[Gradle](back-end/tools/Gradle.md)
