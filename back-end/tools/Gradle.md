@@ -17,3 +17,32 @@ gradle -v
 ```
 GRADLE_USER_HOME=E:\Library\Gradle\.gradle
 ```
+* 在.gradle目录下创建init.gradle文件
+
+* 设置Gradle远程仓库
+```
+allprojects{
+    repositories {
+        def REPOSITORY_URL = 'http://maven.aliyun.com/nexus/content/groups/public/'
+        all { ArtifactRepository repo ->
+            if(repo instanceof MavenArtifactRepository){
+                def url = repo.url.toString()
+                if (url.startsWith('https://repo1.maven.org/maven2') || url.startsWith('https://jcenter.bintray.com/')) {
+                    project.logger.lifecycle "Repository ${repo.url} replaced by $REPOSITORY_URL."
+                    remove repo
+                }
+            }
+        }
+        maven {
+            url REPOSITORY_URL
+        }
+    }
+}
+```
+
+* 在.gradle目录下创建gradle.properties文件
+
+* 设置创建项目的速度
+```
+org.gradle.daemon=true
+```
