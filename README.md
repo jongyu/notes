@@ -1,7 +1,7 @@
 ### 文档
 
 #### 前端
->*[Hexo](fore-end/HexoBlog.md)*
+>*[Hexo](fore-end/HexoBlog.md) |*
 >*[jQuery](fore-end/jQuery.md)*
 
 ##### 前端工具
