@@ -1,3 +1,19 @@
+### 环境变量
+* 修改Maven本地仓库
+```
+<localRepository>D:/LocalRepository/.maven</localRepository>
+```
+
+* 修改Maven远程仓库
+```
+<mirror>
+    <id>alimaven</id>
+    <name>aliyun maven</name>
+    <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+    <mirrorOf>central</mirrorOf>
+</mirror>
+```
+
 ### pom.xml
 ```xml
 <build>
@@ -15,7 +31,7 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
-            <version>2.19.1</version>
+            <version>2.20</version>
             <configuration>
                 <skip>true</skip>
             </configuration>
@@ -23,7 +39,7 @@
         <plugin>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-maven-plugin</artifactId>
-            <version>9.4.3.v20170317</version>
+            <version>9.4.6.v20170531</version>
             <configuration>
                 <scanIntervalSeconds>1</scanIntervalSeconds>
                 <httpConnector>
@@ -44,7 +60,7 @@ Spring引用
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-framework-bom</artifactId>
-            <version>4.3.7.RELEASE</version>
+            <version>4.3.10.RELEASE</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
