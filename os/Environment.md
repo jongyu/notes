@@ -46,6 +46,11 @@ G:\DevelopmentTools\apache-maven-3.3.9
 -Xms128m  -Xmx512m
 ```
 
+`Path`
+```
+%MAVEN_HOME%\bin
+```
+
 #### Maven for Linux
 ```
 MAVEN_HOME=/usr/program/maven3.3.9
@@ -58,13 +63,4 @@ export MAVEN_OPTS
 * 刷新该配置
 ```
 source /etc/profile
-```
-* 全局阿里云远程仓库
-```xml
-<mirror>
-    <id>alimaven</id>
-    <name>aliyun maven</name>
-    <url>http://maven.aliyun.com/nexus/content/groups/public</url>
-    <mirrorOf>central</mirrorOf>
-</mirror>
 ```
