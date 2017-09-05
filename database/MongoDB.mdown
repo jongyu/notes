@@ -1,3 +1,53 @@
 ## MongoDB
 
+### 安装及启动 for Mac
+* 安装
+```
+brew install mongodb
+```
+
+* 卸载
+```
+brew uninstall mongodb
+```
+
+* 启动
+```
+brew services start mongodb
+```
+
+* 停止
+```
+brew services stop mongodb
+``` 
+
 ### 常用命令
+* 显示库
+```
+show dbs
+```
+
+* 使用某库
+```
+use databaseName
+```
+
+* 显示表
+```
+show collections
+```
+
+* 检测状态
+```
+db.tableName.stats()
+```
+
+* 查询单个
+```
+db.tableName.findOne()
+```
+
+* 简单条件查询
+```
+db.tableName.find({"_id":"3482565"})
+```
