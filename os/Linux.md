@@ -38,6 +38,21 @@ ssh224
 alias cdr='cd /home/doc/'
 ```
 
+#### 文件上传下载
+* 文件上传
+```
+scp /Users/zhongyu/Downloads/EC.json root@192.168.0.1:/home/master/zhongyu/
+下面的-P是端口
+scp -P58404 /Users/zhongyu/Downloads/EC.json root@192.168.0.1:/home/master/zhongyu/
+```
+
+* 文件下载
+```
+scp /tmp/20170905134034.csv /Users/zhongyu/Downloads/
+下面的-P是端口
+scp -P58404 /tmp/20170905134034.csv /Users/zhongyu/Downloads/
+```
+
 #### 使用阿里云的源
 * 备份原来的配置
 ```
