@@ -32,9 +32,20 @@ show dbs
 use databaseName
 ```
 
+* 显示当前在某库
+```
+db
+```
+
+* 删除数据库
+```
+db.dropDatabase()
+```
+
 * 显示表
 ```
 show collections
+show tables
 ```
 
 * 检测状态
@@ -42,9 +53,28 @@ show collections
 db.tableName.stats()
 ```
 
+* 删除集合
+```
+db.collection.drop()
+db.tableName.drop()
+```
+
 * 查询单个
 ```
 db.tableName.findOne()
+```
+
+* 添加记录
+```
+db.tableName.insert({"name":"ZhongYu"})
+或者
+document=({"name":"Aimee"})
+db.tableName.insert(document)
+```
+
+* 查询所有
+```
+db.tableName.find()
 ```
 
 * 简单条件查询
