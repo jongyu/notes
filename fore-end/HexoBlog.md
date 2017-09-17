@@ -1,3 +1,5 @@
+## 安装Hexo
+
 ```
 npm install hexo-cli -g
 ```
