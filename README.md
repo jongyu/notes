@@ -2,13 +2,17 @@
 
 #### 前端
 >[Hexo](fore-end/HexoBlog.md)	|
->[jQuery](fore-end/jQuery.md)
+>[jQuery](fore-end/jQuery.md)	|
+>[Markdown](fore-end/Markdown.md)	|
 
 ##### 前端工具
 >[Markdown](fore-end/tools/Markdown.md)
 
 #### 后端
->[Flink](back-end/Flink.md)
+>[Flink](back-end/Flink.md)	|
+>[Druid](back-end/Druid.md)	|
+>[Lombok](back-end/Lombok.md)	|
+>[SpringMVC](back-end/SpringMVC.md)	|
 
 ##### 模板引擎
 >[Thymeleaf](back-end/Thymeleaf.md)	|
@@ -17,7 +21,8 @@
 
 ##### 后端工具
 >[Maven](back-end/tools/Maven.md)	|
->[Gradle](back-end/tools/Gradle.md)
+>[Gradle](back-end/tools/Gradle.md)	|
+>[IDEA](back-end/tools/IDEA.md)	|
 
 #### 测试
 >[Junit](testing/Junit.md)
