@@ -1,5 +1,46 @@
 ## MongoDB
 
+* [官网地址](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-red-hat/)
+
+### 安装及启动 for Linux
+* 创建yum文件
+```
+touch /etc/yum.repos.d/mongodb-org-3.4.repo
+```
+
+* 编辑`mongodb-org-3.4.repo`编辑以下内容
+```
+[mongodb-org-3.4]
+name=MongoDB Repository
+baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/3.4/x86_64/
+gpgcheck=1
+enabled=1
+gpgkey=https://www.mongodb.org/static/pgp/server-3.4.asc
+```
+
+* 执行安装
+```
+sudo yum install -y mongodb-org
+```
+
+* 启动MongoDB
+```
+sudo service mongod start
+```
+
+* 关闭MongoDB
+```
+sudo service mongod stop
+```
+
+* 开启远程访问
+```
+1.编辑配置文件
+vi /etc/mongod.conf
+2.注释掉bindIp
+#bindIp: 127.0.0.1
+```
+
 ### 安装及启动 for Mac
 * 安装
 ```
