@@ -1,7 +1,28 @@
 ## 安装Hexo
 
 ```
+npm config set registry https://registry.npm.taobao.org
+```
+
+```
+npm config get registry
+```
+
+```
 npm install hexo-cli -g
+```
+
+
+```
+hexo init blog
+```
+
+```
+cd blog
+```
+
+```
+npm install
 ```
 
 ```
@@ -9,13 +30,22 @@ npm install hexo-deployer-git --save
 ```
 
 ```
-hexo init blog
+npm install hexo-generator-feed --save
 ```
+
 ```
-cd blog
+npm install hexo-generator-sitemap --save
 ```
+
 ```
-npm install
+npm install hexo-generator-baidu-sitemap --save
+```
+
+```
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
 ```
 
 服务器
