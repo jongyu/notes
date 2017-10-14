@@ -20,7 +20,9 @@
 [麦子学院](http://www.maiziedu.com/)	|
 [菜鸟教程](http://www.runoob.com/)	|
 [易佰教程](http://www.yiibai.com/)	|
+[慕课网](http://www.imooc.com/)	|
 [天马营](https://www.tianmaying.com/)	|
+[极客学院](http://www.jikexueyuan.com/)	|
 [蚂蚁课堂](http://www.itmayiedu.com/)	|
 [蚂蚁程序员](http://bbs.itmayiedu.com/)	|
 [Java设计模式](http://java-design-patterns.com/)	|
@@ -36,6 +38,9 @@
 
 #### CSND
 [柳峰](http://blog.csdn.net/lyq8479/article/category/1366622/2)	|
+
+#### 协助工具
+[Teambition](https://www.teambition.com/)	|
 
 #### 工具
 * zsh <br>
