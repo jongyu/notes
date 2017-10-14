@@ -1,5 +1,7 @@
 ### 文档
 
+>[链接](link.md)	|
+
 #### 前端
 >[Hexo](fore-end/HexoBlog.md)	|
 >[jQuery](fore-end/jQuery.md)	|
@@ -15,9 +17,9 @@
 >[SpringMVC](back-end/SpringMVC.md)	|
 
 ##### 模板引擎
->[Thymeleaf](back-end/Thymeleaf.md)	|
->[Freemarker](back-end/Freemarker.md)	|
->[Velocity](back-end/Velocity.md)	
+>[Thymeleaf](back-end/templates/Thymeleaf.md)	|
+>[Freemarker](back-end/templates/Freemarker.md)	|
+>[Velocity](back-end/templates/Velocity.md)	
 
 ##### 后端工具
 >[Maven](back-end/tools/Maven.md)	|
@@ -28,10 +30,14 @@
 >[Junit](testing/Junit.md)
 
 #### 数据库
->[Redis](database/Redis.md)
+>[Redis](database/Redis.md)	|
+>[MongoDB](database/MongoDB.md)	|
+>[SQL](database/SQL.md)	|
 
 #### OS
 >[Git](os/Git.md)	|
 >[Git-Install](os/Git-Install.md)	|
+>[Git克隆指定文件或目录](os/GitSparseCheckout.mdown)	|
 >[Linux](os/Linux.md)	|
+>[Sublime](os/Sublime.md)	|
 >[环境](os/Environment.md)
