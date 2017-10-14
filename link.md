@@ -2,6 +2,5 @@
 
 #### 博客
 
-[过往记忆][过完记忆]
-
-[过往记忆]:https://www.iteblog.com/
+[过往记忆](https://www.iteblog.com/)	|
+[并发编程网](http://ifeve.com/)	|
