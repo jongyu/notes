@@ -69,7 +69,7 @@ hexo new page 'categories'
 ```
 ```
 title: 分类
-date: 2016-12-30 12:00:00
+date: 2016-01-01 12:00:00
 type: "categories"
 comments: false
 ---
@@ -81,7 +81,7 @@ hexo new page 'tags'
 ```
 ```
 title: 标签
-date: 2016-12-30 12:00:00
+date: 2016-01-01 12:00:00
 type: "tags"
 comments: false
 ---
@@ -93,7 +93,7 @@ hexo new page 'about'
 ```
 ```
 title: 关于
-date: 2016-12-30 12:00:00
+date: 2016-01-01 12:00:00
 type: "about"
 comments: false
 ---
