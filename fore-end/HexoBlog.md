@@ -99,6 +99,7 @@ comments: false
 ---
 ```
 
+* 部署在Coding上不被拦截
 ```
 themes/next/layout/_partials/footer.swig
 ```
@@ -107,4 +108,31 @@ themes/next/layout/_partials/footer.swig
 <div class="theme-info">
   <p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
 </div>
+```
+
+* 修改文章内链接文本样式
+```
+themes\next\source\css\_common\components\post\post.styl
+```
+
+```
+.post-body p a{
+  color: #0593d3;
+  border-bottom: none;
+  border-bottom: 1px solid #0593d3;
+  &:hover {
+    color: #fc6423;
+    border-bottom: none;
+    border-bottom: 1px solid #fc6423;
+  }
+}
+```
+
+* 修改文章底部的那个带#号的标签
+``` 
+themes\next\layout\_macro\post.swig
+```
+
+```
+搜索`rel="tag">#`将`#`替换成`<i class="fa fa-tag"></i>`
 ```
