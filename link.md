@@ -8,7 +8,7 @@
 [XDemo](http://www.xdemo.org/)	|
 [纯洁的微笑](http://www.ityouknow.com/)	|
 [Segmentfault](https://segmentfault.com/)	|
-[IBM](https://www.ibm.com/developerworks/cn/)
+[IBM](https://www.ibm.com/developerworks/cn/)|
 
 #### 框架官网
 [Spring](https://spring.io/)	|
@@ -51,3 +51,4 @@
 [Hexo官网](https://hexo.io/)	|
 [NexT主题](https://github.com/iissnan/hexo-theme-next)	|
 [NexT主题配置](http://theme-next.iissnan.com/)	|
+[Next主题美化](http://shenzekun.cn/hexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.html#more)	|
