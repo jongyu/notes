@@ -98,3 +98,13 @@ type: "about"
 comments: false
 ---
 ```
+
+```
+themes/next/layout/_partials/footer.swig
+```
+
+```
+<div class="theme-info">
+  <p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
+</div>
+```
