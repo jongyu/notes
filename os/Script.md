@@ -79,3 +79,13 @@ case "$1" in
     ;;
 esac
 ```
+
+* 赋予脚本执行权限
+```
+chmod a+x script.sh 或者 chmod 777 script.sh
+```
+
+* 执行脚本
+```
+./script.sh deploy|stop|restart
+```
