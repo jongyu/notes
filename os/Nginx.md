@@ -173,3 +173,7 @@ exit $RETVAL
 - 启动服务：`service nginx start`
 - 停止服务：`service nginx stop`
 - 重启服务：`service nginx restart`
+
+## Nginx 配置
+
+- Nginx 默认配置文件：`vim /usr/local/nginx/conf/nginx.conf`
