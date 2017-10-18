@@ -177,3 +177,10 @@ exit $RETVAL
 ## Nginx 配置
 
 - Nginx 默认配置文件：`vim /usr/local/nginx/conf/nginx.conf`
+
+```
+location /sov/ {
+    proxy_pass   http://localhost:8080/;
+    proxy_redirect default;
+}
+```
