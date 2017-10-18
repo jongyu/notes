@@ -31,7 +31,7 @@
 
 #### 数据库
 >[Redis](database/Redis.md)	|
->[MongoDB](database/MongoDB.md)	|
+>[MongoDB](database/MongoDB.mdown)	|
 >[SQL](database/SQL.md)	|
 
 #### OS

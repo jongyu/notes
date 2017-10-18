@@ -32,6 +32,7 @@
 [CDN](http://www.bootcdn.cn/)	|
 [Spring Initializr](http://start.spring.io/)	|
 [Aliyun NPM](https://npm.taobao.org/mirrors/)	|
+[生成Cron表达式](http://cron.qqe2.com/)	|
 
 #### 例子
 [Mkyong.com](http://www.mkyong.com/)
