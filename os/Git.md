@@ -49,6 +49,12 @@ git pull
 
 ### 代码撤销
 
+* 撤销本地未add的代码
+```
+git clean -df
+git reset --hard
+```
+
 * 撤销本地未`add`未`commit`的代码，`FileName`为单个文件`.`为所有文件
 ```
 git checkout FileName or .
