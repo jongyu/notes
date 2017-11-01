@@ -58,4 +58,4 @@
 
 #### You'll see
 [1024](http://1024.skswk9.com/pw/)
-[se](seavba.net)
+[se](http://seavba.net)
