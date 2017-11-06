@@ -1,6 +1,7 @@
 ### 链接
 
 #### 博客
+[掘金](https://juejin.im/)	|
 [程序员DD](http://blog.didispace.com/)	|
 [过往记忆](https://www.iteblog.com/)	|
 [并发编程网](http://ifeve.com/)	|
@@ -27,6 +28,11 @@
 [蚂蚁课堂](http://www.itmayiedu.com/)	|
 [蚂蚁程序员](http://bbs.itmayiedu.com/)	|
 [Java设计模式](http://java-design-patterns.com/)	|
+
+#### 测试
+[测试之道](http://www.testtao.cn/)	|
+[TesterHome](https://testerhome.com/)	|
+[测试窝](https://www.testwo.com/)	|
 
 #### 工具
 [在线工具](http://tool.oschina.net/)	|
