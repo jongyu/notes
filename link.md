@@ -29,7 +29,7 @@
 [蚂蚁程序员](http://bbs.itmayiedu.com/)	|
 [Java设计模式](http://java-design-patterns.com/)	|
 
-#### 测试
+#### Testing
 [测试之道](http://www.testtao.cn/)	|
 [TesterHome](https://testerhome.com/)	|
 [测试窝](https://www.testwo.com/)	|
@@ -63,5 +63,5 @@
 
 
 #### You'll see
-[1024](http://1024.skswk9.com/pw/)
-[se](http://seavba.net)
+<!-- [1024](http://1024.skswk9.com/pw/) -->
+<!-- [se](http://seavba.net) -->
