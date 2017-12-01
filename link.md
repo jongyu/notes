@@ -36,6 +36,7 @@
 
 #### 工具
 [在线工具](http://tool.oschina.net/)	|
+[WebDriver](https://www.gitbook.com/book/easonhan007/selenium-webdriver/details)   |
 [CDN](http://www.bootcdn.cn/)	|
 [Spring Initializr](http://start.spring.io/)	|
 [Aliyun NPM](https://npm.taobao.org/mirrors/)	|
