@@ -8,6 +8,12 @@ easy_install pip
 pip install -U selenium
 ```
 
+##### 安装Webium
+- Webium是一个Page Object设置模式的框架
+```
+pip install webium
+```
+
 - 将ChromeDriver目录添加到Path环境下
 
 - 最简单的例子
