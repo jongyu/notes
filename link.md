@@ -32,6 +32,7 @@
 #### Testing
 [测试之道](http://www.testtao.cn/)	|
 [TesterHome](https://testerhome.com/)	|
+[测试教程](http://www.testclass.net/)  |
 [测试窝](https://www.testwo.com/)	|
 
 #### 工具
