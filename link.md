@@ -57,7 +57,7 @@
 * zsh <br>
 [oh-my-zsh终端用户名屏蔽设置](http://blog.csdn.net/z3512498/article/details/51245853)	|
 [zsh配色方案](http://www.cnblogs.com/weixuqin/p/7029177.html)	|
-[maven range配置规则](http://maven.apache.org/enforcer/enforcer-rules/versionRanges.html)  |
+[Maven版本校验 Version Range的支持](http://maven.apache.org/enforcer/enforcer-rules/versionRanges.html)  |
 
 #### Hexo
 [Hexo官网](https://hexo.io/)	|
