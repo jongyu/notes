@@ -34,6 +34,7 @@
 [TesterHome](https://testerhome.com/)	|
 [测试教程](http://www.testclass.net/)  |
 [测试窝](https://www.testwo.com/)	|
+[Macaca](https://testerhome.com/wiki/developingappium)  |
 
 #### 工具
 [在线工具](http://tool.oschina.net/)	|
