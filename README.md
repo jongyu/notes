@@ -37,10 +37,15 @@
 >[MongoDB](database/MongoDB.mdown)	|
 >[SQL](database/SQL.md)	|
 
+#### 工具
+>[Sublime](tools/Sublime.md)	|
+>[Git](tools/Git.md)	|
+>[安装Git](tools/Git-Install.md)	|
+>[Git克隆指定文件或目录](tools/GitSparseCheckout.mdown)	|
+>[Nginx](tools/Nginx.mdown)	|
+
 #### OS
->[Git](os/Git.md)	|
->[Git-Install](os/Git-Install.md)	|
->[Git克隆指定文件或目录](os/GitSparseCheckout.mdown)	|
 >[Linux](os/Linux.md)	|
->[Sublime](os/Sublime.md)	|
->[环境](os/Environment.md)
+>[环境](os/Environment.md)	|
+>[Mac](os/Mac.md)	|
+>[Linux命令](os/LinuxCommand.md)	|
