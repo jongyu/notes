@@ -27,7 +27,10 @@
 >[IDEA](back-end/tools/IDEA.md)	|
 
 #### 测试
->[Junit](testing/Junit.md)
+>[Junit](testing/Junit.md)	|
+>[Selenium](testing/Selenium.md)	|
+>[SikuliX](testing/SikuliX.md)	|
+>[Cucumber](testing/Cucumber.md)	|
 
 #### 数据库
 >[Redis](database/Redis.md)	|
