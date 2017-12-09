@@ -21,7 +21,8 @@
     </property>
 </bean>
 ```
-xml
+
+```xml
 <bean id="viewResolver" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
     <property name="cache" value="true"/>
     <property name="prefix" value="/WEB-INF/views/"/>
