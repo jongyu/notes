@@ -20,7 +20,7 @@ GRADLE_USER_HOME=E:\Library\Gradle\.gradle
 * 在.gradle目录下创建init.gradle文件
 
 * 设置Gradle远程仓库
-```
+```gradle
 allprojects{
     repositories {
         def REPOSITORY_URL = 'http://maven.aliyun.com/nexus/content/groups/public/'
