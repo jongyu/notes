@@ -19,6 +19,13 @@ http://idea.iteblog.com/key.php
 public class ${NAME} {
 }
 ```
+- old
+```
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+#parse("File Header.java")
+public class ${NAME} {
+}
+```
 
 #### 设置文件不显示
 - Settings -> Editor -> File Types -> Ignore files and folders
