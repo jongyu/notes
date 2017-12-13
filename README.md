@@ -49,4 +49,6 @@
 >[Linux](os/Linux.md)	|
 >[环境](os/Environment.md)	|
 >[Mac](os/Mac.md)	|
+>[Chrome](os/Chrome.md)	|
+>[Ubuntu](os/Ubuntu.md)	|
 >[Linux命令](os/LinuxCommand.md)	|
