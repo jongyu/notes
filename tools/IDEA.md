@@ -12,9 +12,9 @@ http://idea.iteblog.com/key.php
 ### Class 类注释
 ```
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
-
+#parse("File Header.java")
 /**
- * Created by ZhongYu on ${DATE}.
+ * Created by ZhongYu on ${MONTH}/${DAY}/${YEAR}.
  */
 public class ${NAME} {
 }
