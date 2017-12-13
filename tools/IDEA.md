@@ -20,27 +20,16 @@ public class ${NAME} {
 }
 ```
 
+#### 设置文件不显示
+- Settings -> Editor -> File Types -> Ignore files and folders
+- 再添加以下内容
+```
+.idea;*.iml;
+```
+
 #### 插件
-- 阿里代码检查工具
-```text
-Alibaba Java Coding Guidelines
-```
-
+- Alibaba Java Coding Guidelines
 - MyBatis
-```text
-MyBatis plugin
-```
 - Material Theme UI
-```
-Material Theme UI
-```
-
 - ChroMATERIAL
-```
-ChroMATERIAL
-```
-
 - Lombok
-```
-Lombok Plugin
-```
