@@ -12,7 +12,7 @@ sudo apt-get remove unity-webapps-common
 ```
 
 - 安装Unity Tweak Tool
-```commandline
+```bash
 sudo apt-get install unity-tweak-tool
 ```
 
