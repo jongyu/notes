@@ -34,6 +34,20 @@ public class ${NAME} {
 .idea;*.iml;
 ```
 
+#### IDEA 创建`feature`文件
+- Settings -> Editor -> File and CodeTemplates
+- 添加一个Name为：`Gherkin feature file` Extension：`feature`
+- 如果使用Cucumber建议添加以下内容
+```feature
+# language: zh-CN
+# Created by ${USER} at ${DATE}
+场景: #Enter feature name here
+  # Enter feature description here
+
+  Scenario: # Enter scenario name here
+    # Enter steps here
+```
+
 #### 插件
 - Alibaba Java Coding Guidelines
 - MyBatis
