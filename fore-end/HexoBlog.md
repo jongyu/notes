@@ -135,3 +135,24 @@ themes\next\layout\_macro\post.swig
 
 
 搜索`rel="tag">#`将`#`替换成`<i class="fa fa-tag"></i>`
+
+##### 在创建博客文件后自动打开
+- 首先在Hexo目录下的scripts目录中创建一个JavaScript脚本文件。
+- scripts目录新建的JavaScript脚本文件可以任意取名。
+- 如果使用的是Windows，则将下列内容写入脚本中：
+```javascript
+var spawn = require('child_process').exec;
+
+hexo.on('new', function(data){
+  spawn('start  "markdown编辑器绝对路径.exe" ' + data.path);
+});
+```
+
+- 如果使用的是Mac，则将下列内容写入脚本中：
+```javascript
+var exec = require('child_process').exec;
+
+hexo.on('new', function(data){
+    exec('open -a "markdown编辑器绝对路径.app" ' + data.path);
+});
+```
