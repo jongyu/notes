@@ -101,7 +101,7 @@ comments: false
 
 * 部署在Coding上不被拦截
 ```
-themes/next/layout/_partials/footer.swig
+themes\next\layout\_partials\footer.swig
 ```
 
 ```
@@ -133,6 +133,5 @@ themes\next\source\css\_common\components\post\post.styl
 themes\next\layout\_macro\post.swig
 ```
 
-```
+
 搜索`rel="tag">#`将`#`替换成`<i class="fa fa-tag"></i>`
-```
