@@ -156,3 +156,47 @@ hexo.on('new', function(data){
     exec('open -a "markdown编辑器绝对路径.app" ' + data.path);
 });
 ```
+
+##### Hexo 自动备份
+```
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:yourname/hexo-source.git
+git push -u origin master
+```
+- 首先在Hexo目录下的scripts目录中创建一个JavaScript脚本文件。
+- scripts目录新建的JavaScript脚本文件可以任意取名。
+- 添加以下脚本内容 需要修改186行
+```
+require('shelljs/global');
+try {
+	hexo.on('deployAfter', function() {//当deploy完成后执行备份
+		run();
+	});
+} catch (e) {
+	console.log("产生了一个错误<(￣3￣)> !，错误详情为：" + e.toString());
+}
+function run() {
+	if (!which('git')) {
+		echo('Sorry, this script requires git');
+		exit(1);
+	} else {
+		echo("======================Auto Backup Begin===========================");
+		cd('D:/Blog');//Hexo Blog位置
+		if (exec('git add --all').code !== 0) {
+			echo('Error: Git add failed');
+			exit(1);
+		}
+		if (exec('git commit -am "Form auto backup script\'s commit"').code !== 0) {
+			echo('Error: Git commit failed');
+			exit(1);
+		}
+		if (exec('git push origin master').code !== 0) {
+			echo('Error: Git push failed');
+			exit(1);
+		}
+		echo("==================Auto Backup Complete============================")
+	}
+}
+```
