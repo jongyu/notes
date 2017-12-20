@@ -1,7 +1,5 @@
 ### 文档
 
->[链接](link.md)	|
-
 #### 前端
 >[Hexo](fore-end/HexoBlog.md)	|
 >[jQuery](fore-end/jQuery.md)	|
