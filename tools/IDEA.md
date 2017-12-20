@@ -48,6 +48,26 @@ public class ${NAME} {
     # Enter steps here
 ```
 
+#### Thymeleaf
+```html
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <title>$Title</title>
+</head>
+<body>
+<div class="container">
+
+</div>
+</body>
+</html>
+```
+
 #### 插件
 - Alibaba Java Coding Guidelines
 - MyBatis
