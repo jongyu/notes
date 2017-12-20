@@ -1,6 +1,6 @@
 ### 文档
 
->[链接](link.md)  |
+>[链接](tools/link.md)  |
 
 #### 前端
 >[Hexo](fore-end/HexoBlog.md)	|
