@@ -60,9 +60,9 @@ public class ${NAME} {
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" th:href="@{/images/icon/website.ico}" type="image/x-icon"/>
-    <link rel="icon" sizes="192x192" th:href="@{/images/website-icon-192.png}" type="image/png"/>
-    <link rel="icon" sizes="128x128" th:href="@{/images/website-icon-128.png}" type="image/png"/>
-    <link rel="apple-touch-icon" sizes="128x128" th:href="@{/images/website-icon-128.png}" type="image/png"/>
+    <link rel="icon" sizes="192x192" th:href="@{/images/icon/website-192.png}" type="image/png"/>
+    <link rel="icon" sizes="128x128" th:href="@{/images/icon/website-128.png}" type="image/png"/>
+    <link rel="apple-touch-icon" sizes="128x128" th:href="@{/images/icon/website-128.png}" type="image/png"/>
 </head>
 <body>
 <div class="container">
