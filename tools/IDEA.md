@@ -74,4 +74,4 @@ public class ${NAME} {
 - Material Theme UI
 - ChroMATERIAL
 - Lombok
-- Translation（id：`2ce04f208dd25f35` 密钥：`zO9bgWBtvvE2RcRLJOlzMjaOPUaDCnhy`）
+- Translation id：`2ce04f208dd25f35` 密钥：`zO9bgWBtvvE2RcRLJOlzMjaOPUaDCnhy`
