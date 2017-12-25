@@ -3,7 +3,7 @@
 >[链接](tools/Links.md)  |
 
 #### 前端
->[Hexo](fore-end/HexoBlog.md)	|
+>[Hexo](fore-end/Hexo.md)	|
 >[jQuery](fore-end/jQuery.md)	|
 >[Markdown](fore-end/Markdown.md)	|
 
@@ -42,7 +42,7 @@
 >[Git](tools/Git.md)	|
 >[IDEA](tools/IDEA.md)	|
 >[安装Git](tools/Git-Install.md)	|
->[Git克隆指定文件或目录](tools/GitSparseCheckout.mdown)	|
+>[Git克隆指定文件或目录](tools/GitSparseCheckout.md)	|
 >[Nginx](tools/Nginx.mdown)	|
 
 #### OS
