@@ -1,1 +1,0 @@
-- [Freemarker](/templates/Freemarker.md)
