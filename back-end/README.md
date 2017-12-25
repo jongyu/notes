@@ -1,1 +1,1 @@
-- [Freemarker](back-end/templates/Freemarker.md)	|
+- [Freemarker](/templates/Freemarker.md)
