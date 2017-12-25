@@ -53,12 +53,16 @@ public class ${NAME} {
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>$Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>$Title</title>
+    <link rel="shortcut icon" th:href="@{/images/icon/website.ico}" type="image/x-icon"/>
+    <link rel="icon" sizes="192x192" th:href="@{/images/website-icon-192.png}" type="image/png"/>
+    <link rel="icon" sizes="128x128" th:href="@{/images/website-icon-128.png}" type="image/png"/>
+    <link rel="apple-touch-icon" sizes="128x128" th:href="@{/images/website-icon-128.png}" type="image/png"/>
 </head>
 <body>
 <div class="container">
