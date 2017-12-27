@@ -16,3 +16,8 @@ nox_adb.exe connect 127.0.0.1:62001
 ```
 adb devices
 ```
+
+- 上传文件(文件夹)
+```
+adb push E:/files /mnt/sdcard/Download/
+```
