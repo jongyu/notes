@@ -20,12 +20,9 @@
 [Jhipster](http://www.jhipster.tech/) |
 
 #### 编程学习
-[麦子学院](http://www.maiziedu.com/)  |
-[菜鸟教程](http://www.runoob.com/)    |
-[易佰教程](http://www.yiibai.com/)    |
-[慕课网](http://www.imooc.com/)  |
-[天马营](https://www.tianmaying.com/)    |
-[极客学院](http://www.jikexueyuan.com/)   |
+[tutorialspoint](http://www.tutorialspoint.com/)	|
+[w3schools](www.w3schools.com)	|
+[w3school.cn](http://www.w3school.com.cn/)	|
 [蚂蚁课堂](http://www.itmayiedu.com/) |
 [蚂蚁程序员](http://bbs.itmayiedu.com/)    |
 [Java设计模式](http://java-design-patterns.com/)  |
@@ -35,7 +32,7 @@
 [TesterHome](https://testerhome.com/) |
 [测试教程](http://www.testclass.net/)  |
 [测试窝](https://www.testwo.com/)    |
-[Macaca](https://testerhome.com/wiki/developingappium)  |
+[Macaca](https://macacajs.github.io/zh/)  |
 
 #### 工具
 [在线工具](http://tool.oschina.net/)  |
