@@ -48,9 +48,6 @@
 #### CSND
 [柳峰](http://blog.csdn.net/lyq8479/article/category/1366622/2) |
 
-#### 协助工具
-[Teambition](https://www.teambition.com/) |
-
 #### 工具
 * zsh <br>
 [oh-my-zsh终端用户名屏蔽设置](http://blog.csdn.net/z3512498/article/details/51245853)  |
