@@ -5,10 +5,10 @@
 ### 安装及启动 for Linux
 * 创建yum文件
 ```
-touch /etc/yum.repos.d/mongodb-org-3.4.repo
+touch /etc/yum.repos.d/mongodb-org-3.6.repo
 ```
 
-* 编辑`mongodb-org-3.4.repo`编辑以下内容
+* 编辑`mongodb-org-3.6.repo`编辑以下内容
 ```
 [mongodb-org-3.6]
 name=MongoDB Repository
