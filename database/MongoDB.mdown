@@ -37,8 +37,9 @@ sudo service mongod stop
 ```
 1.编辑配置文件
 vi /etc/mongod.conf
-2.注释掉bindIp
-#bindIp: 127.0.0.1
+2.修改绑定的IP
+net:
+  bindIp: 0.0.0.0 
 ```
 
 ### 安装及启动 for Mac
