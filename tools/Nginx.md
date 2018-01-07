@@ -44,14 +44,9 @@ cd nginx-1.12.2/
 --http-scgi-temp-path=/var/temp/nginx/scgi
 ```
 
-* 编译
+* 编译安装
 ```
-make
-```
-
-* 安装
-```
-make install
+make && make install
 ```
 
 - 启动 Nginx
