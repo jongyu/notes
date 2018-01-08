@@ -99,6 +99,17 @@ comments: false
 ---
 ```
 
+#### Next
+- 进入`Blog`目录
+```
+cd Blog
+```
+
+- 克隆主题
+```
+git clone https://github.com/iissnan/hexo-theme-next themes/next
+```
+
 * 部署在Coding上不被拦截
 ```
 themes\next\layout\_partials\footer.swig
