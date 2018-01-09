@@ -171,7 +171,7 @@ hexo.on('new', function(data){
 ##### Hexo 自动备份
 ```
 git init
-git add README.md
+git add .
 git commit -m "first commit"
 git remote add origin git@github.com:yourname/hexo-source.git
 git push -u origin master
