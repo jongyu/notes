@@ -121,7 +121,7 @@ git clone https://github.com/iissnan/hexo-theme-next themes/next
 
 * 部署在Coding上不被拦截
 ```
-themes\next\layout\_partials\footer.swig
+D:\Blog\themes\next\layout\_partials\footer.swig
 ```
 
 ```
@@ -132,7 +132,7 @@ themes\next\layout\_partials\footer.swig
 
 * 修改文章内链接文本样式
 ```
-themes\next\source\css\_common\components\post\post.styl
+D:\Blog\themes\next\source\css\_common\components\post\post.styl
 ```
 
 ```
@@ -150,7 +150,7 @@ themes\next\source\css\_common\components\post\post.styl
 
 * 修改文章底部的那个带#号的标签
 ``` 
-themes\next\layout\_macro\post.swig
+D:\Blog\themes\next\layout\_macro\post.swig
 ```
 
 
