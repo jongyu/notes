@@ -5,11 +5,11 @@ npm config set registry https://registry.npm.taobao.org
 ```
 
 ```
-npm config get registry
+cnpm config get registry
 ```
 
 ```
-npm install hexo-cli -g
+cnpm install hexo-cli -g
 ```
 
 
@@ -22,23 +22,28 @@ cd blog
 ```
 
 ```
-npm install
+cnpm install
 ```
 
 ```
-npm install hexo-deployer-git --save
+cnpm install hexo-deployer-git --save
 ```
 
 ```
-npm install hexo-generator-feed --save
+cnpm install hexo-generator-feed --save
 ```
 
 ```
-npm install hexo-generator-sitemap --save
+cnpm install hexo-generator-sitemap --save
 ```
 
 ```
-npm install hexo-generator-baidu-sitemap --save
+cnpm install hexo-generator-baidu-sitemap --save
+```
+
+- or
+```
+cnpm install hexo-deployer-git hexo-generator-feed hexo-generator-sitemap hexo-generator-baidu-sitemap
 ```
 
 ```
@@ -146,6 +151,11 @@ themes\next\layout\_macro\post.swig
 
 
 搜索`rel="tag">#`将`#`替换成`<i class="fa fa-tag"></i>`
+
+#### 插件
+```
+cnpm install --save shelljs
+```
 
 ##### 在创建博客文件后自动打开
 - 首先在Hexo目录下的scripts目录中创建一个JavaScript脚本文件。
