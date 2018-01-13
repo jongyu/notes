@@ -56,21 +56,10 @@ G:\DevelopmentTools\apache-maven-3.3.9
 %MAVEN_HOME%\bin
 ```
 
-#### Maven for Linux
-```
-MAVEN_HOME=/usr/program/maven3.3.9
-PATH=$PATH:$MAVEN_HOME/bin
-MAVEN_OPTS="-Xms256m -Xmx356m"
-export MAVEN_HOME MAVEN_OPTS PATH
-```
-
-* 刷新该配置
-```
-source /etc/profile
-```
-
 #### Maven for Mac
 ```
-export MAVEN_HOME=/Users/zhongyu/Develop/apache-maven-3.5.0
-export PATH=$PATH:$MAVEN_HOME/bin
+MAVEN_HOME="/Users/zhongyu/Applications/apache-maven-3.5.2"
+PATH=$PATH:$MAVEN_HOME/bin
+MAVEN_OPTS="-Xms128m  -Xmx512m"
+export MAVEN_HOME MAVEN_OPTS PATH
 ```
