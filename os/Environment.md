@@ -34,7 +34,7 @@ source /etc/profile
 
 #### Java of Mac
 ```
-JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home"
+JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home"
 CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 PATH=$PATH:$JAVA_HOME/bin
 export JAVA_HOME CLASS_PATH PATH
