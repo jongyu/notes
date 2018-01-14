@@ -47,7 +47,7 @@ cnpm install hexo-generator-baidu-sitemap --save
 
 - or
 ```
-cnpm install hexo-deployer-git hexo-generator-feed hexo-generator-sitemap hexo-generator-baidu-sitemap
+cnpm install hexo-deployer-git hexo-generator-feed hexo-generator-sitemap hexo-generator-baidu-sitemap --save
 ```
 
 ```
