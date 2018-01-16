@@ -74,4 +74,7 @@ public class ${NAME} {
 - Material Theme UI
 - ChroMATERIAL
 - Lombok
+- .env files support
+- .ignore
+- BashSupport
 - Translation id：`2ce04f208dd25f35` 密钥：`zO9bgWBtvvE2RcRLJOlzMjaOPUaDCnhy`
