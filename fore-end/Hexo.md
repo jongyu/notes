@@ -121,7 +121,7 @@ git clone https://github.com/iissnan/hexo-theme-next themes/next
 
 * 部署在Coding上不被拦截
 ```
-open themes/next/layout/_partials/footer.swig
+open themes/next/layout/_partials/footer.swig -a /Applications/Sublime\ Text.app
 ```
 
 ```
@@ -132,7 +132,7 @@ open themes/next/layout/_partials/footer.swig
 
 * 修改文章内链接文本样式
 ```
-open themes/next/source/css/_common/components/post/post.styl
+open themes/next/source/css/_common/components/post/post.styl -a /Applications/Sublime\ Text.app
 ```
 
 ```
@@ -150,7 +150,7 @@ open themes/next/source/css/_common/components/post/post.styl
 
 * 修改文章底部的那个带#号的标签
 ``` 
-open themes/next/layout/_macro/post.swig
+open themes/next/layout/_macro/post.swig -a /Applications/Sublime\ Text.app
 ```
 
 
