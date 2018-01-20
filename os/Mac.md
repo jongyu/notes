@@ -5,6 +5,22 @@
 系统偏好设置    ->    辅助功能    ->    鼠标与触摸板    ->    触摸板选项    ->    启用拖移    ->    三指拖移
 ```
 
+* zsh和bash之间切换
+-> 使用zsh为root默认shell
+```
+chsh -s /bin/zsh root
+```
+
+-> 修改当前用户使用的shell
+```
+chsh -s /bin/zsh
+```
+
+->恢复系统默认shell
+```
+chsh -s /bin/bash
+```
+
 #### 软件
 * [Chrome](http://www.google.cn/chrome/browser/desktop/index.html)    `最好用的浏览器`
 * [iTerm](http://www.iterm2.com/)    `命令工具`
