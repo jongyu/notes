@@ -124,6 +124,9 @@ cd Blog
 git clone https://github.com/iissnan/hexo-theme-next themes/next
 ```
 
+> open 命令中使用Sublime打开文件,Mac中需要安装Sublime
+> start 命令没有指定打开的程序,当Windows弹出对话框时选择打开的方式
+
 * 部署在Coding上不被拦截
 ```
 open themes/next/layout/_partials/footer.swig -a /Applications/Sublime\ Text.app
