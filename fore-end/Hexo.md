@@ -127,6 +127,8 @@ git clone https://github.com/iissnan/hexo-theme-next themes/next
 * 部署在Coding上不被拦截
 ```
 open themes/next/layout/_partials/footer.swig -a /Applications/Sublime\ Text.app
+- Windows
+start themes/next/layout/_partials/footer.swig
 ```
 
 ```
@@ -137,7 +139,10 @@ open themes/next/layout/_partials/footer.swig -a /Applications/Sublime\ Text.app
 
 * 修改文章内链接文本样式
 ```
+- macOs
 open themes/next/source/css/_common/components/post/post.styl -a /Applications/Sublime\ Text.app
+- Windows
+start ponents/post/post.styl
 ```
 
 ```
@@ -154,16 +159,19 @@ open themes/next/source/css/_common/components/post/post.styl -a /Applications/S
 ```
 
 * 修改文章底部的那个带#号的标签
-``` 
-open themes/next/layout/_macro/post.swig -a /Applications/Sublime\ Text.app
 ```
+- macOS 
+open themes/next/layout/_macro/post.swig -a /Applications/Sublime\ Text.app
 
+- Windows
+start themes/next/layout/_macro/post.swig
+```
 
 搜索`rel="tag">#`将`#`替换成`<i class="fa fa-tag"></i>`
 
 #### 插件
 ```
-cnpm install --save shelljs
+cnpm install shelljs --save
 ```
 
 ##### 在创建博客文件后自动打开
