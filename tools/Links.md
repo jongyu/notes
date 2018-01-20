@@ -42,6 +42,8 @@
 [Aliyun NPM](https://npm.taobao.org/mirrors/) |
 [生成Cron表达式](http://cron.qqe2.com/)    |
 [MWeb Markdown](http://zh.mweb.im/)	|
+[SourceTree](https://www.sourcetreeapp.com/)	|
+[GitKraken](https://www.gitkraken.com/)	|
 
 #### 例子
 [Mkyong.com](http://www.mkyong.com/)
