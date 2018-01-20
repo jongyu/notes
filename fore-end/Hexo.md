@@ -50,6 +50,11 @@ cnpm install hexo-generator-baidu-sitemap --save
 cnpm install hexo-deployer-git hexo-generator-feed hexo-generator-sitemap hexo-generator-baidu-sitemap --save
 ```
 
+- 备份插件
+```
+npm install hexo-git-backup --save
+```
+
 ```
 sitemap:
   path: sitemap.xml
