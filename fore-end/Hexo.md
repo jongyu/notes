@@ -172,6 +172,30 @@ start themes/next/layout/_macro/post.swig
 
 搜索`rel="tag">#`将`#`替换成`<i class="fa fa-tag"></i>`
 
+
+#### Next主题 `next/_config.yml`
+- 来必力(评论服务)
+```
+livere_uid: MTAyMC8zMDAyNy82NTky
+```
+
+- Google(谷歌站长)
+```
+google_site_verification: bxOfdwMkJlAm6Bfm0OtdudF5OQJlUuYWqgDI0oJcydM
+```
+
+- Baidu(百度统计)
+```
+baidu_analytics: f72e731e26be833085f72e1082fd743d
+```
+
+- 打赏(放在任意位置)
+```
+reward_comment: 我知道没有人会打赏的，万一还真有人打赏呢！
+wechatpay: http://oiz6ikqle.bkt.clouddn.com/wechat.png
+alipay: http://oiz6ikqle.bkt.clouddn.com/alipay.png
+```
+
 #### 插件
 ```
 cnpm install shelljs --save
