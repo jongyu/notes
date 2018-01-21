@@ -145,7 +145,7 @@ start themes/next/layout/_partials/footer.swig
 - macOs
 open themes/next/source/css/_common/components/post/post.styl -a /Applications/Sublime\ Text.app
 - Windows
-start ponents/post/post.styl
+start themes/next/source/css/_common/components/post/post.styl
 ```
 
 ```
@@ -194,6 +194,16 @@ baidu_analytics: f72e731e26be833085f72e1082fd743d
 reward_comment: 我知道没有人会打赏的，万一还真有人打赏呢！
 wechatpay: http://oiz6ikqle.bkt.clouddn.com/wechat.png
 alipay: http://oiz6ikqle.bkt.clouddn.com/alipay.png
+```
+
+- 建站时间
+```
+since: 2015
+```
+
+- 开启动画
+```
+three_waves: true
 ```
 
 #### 插件
