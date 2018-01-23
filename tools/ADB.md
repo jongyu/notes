@@ -50,6 +50,11 @@ adb shell
 pm list packages
 ```
 
+- 搜索已安装的软件如：计数器
+```
+pm list packages | grep calculator2
+```
+
 - 转发
 ```
 adb forward tcp:1080 tcp:1080
