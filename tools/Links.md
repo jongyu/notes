@@ -35,6 +35,7 @@
 [Macaca](https://macacajs.github.io/zh/)  |
 
 #### 工具
+[Appium](http://appium.io/docs/cn/writing-running-appium/caps/)  |
 [在线工具](http://tool.oschina.net/)  |
 [WebDriver](https://www.gitbook.com/book/easonhan007/selenium-webdriver/details)   |
 [CDN](http://www.bootcdn.cn/) |
