@@ -135,9 +135,11 @@ start themes/next/layout/_partials/footer.swig
 ```
 
 ```
-<div class="theme-info">
-  <p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
-</div>
+{% if theme.footer.theme.enable %}
+  <div class="theme-info">
+    <p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
+  </div>
+{% endif %}
 ```
 
 * 修改文章内链接文本样式
