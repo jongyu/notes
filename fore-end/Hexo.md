@@ -208,6 +208,19 @@ since: 2015
 three_waves: true
 ```
 
+- 链接
+```
+social:
+  微博: http://weibo.com/u/5171278647 || weibo
+  E-Mail: mailto:zhongyu.vip@gmail.com || envelope
+  知乎: https://www.zhihu.com/people/zhongyua || book
+  Twitter: https://twitter.com/zhongyua || twitter
+  Google+: https://plus.google.com/117936969424564877178 || google-plus-official
+  Instagram: https://www.instagram.com/zhongyuowo/ || instagram
+  GitHub: https://github.com/zhongyua || github
+  Facebook: https://facebook.com/ZhongYuOwO || facebook
+```
+
 #### 插件
 ```
 cnpm install shelljs --save
