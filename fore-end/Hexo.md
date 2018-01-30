@@ -175,7 +175,8 @@ start themes/next/layout/_macro/post.swig
 搜索`rel="tag">#`将`#`替换成`<i class="fa fa-tag"></i>`
 
 
-#### Next主题 `open themes/next/_config.yml -a /Applications/Sublime\ Text.app`
+#### Next主题
+- 打开配置`open themes/next/_config.yml -a /Applications/Sublime\ Text.app`
 - 来必力(评论服务)
 ```
 livere_uid: MTAyMC8zMDAyNy82NTky
