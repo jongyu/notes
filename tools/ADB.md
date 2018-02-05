@@ -1,5 +1,11 @@
 #### ADB
 
+## 安装
+
+https://developer.android.com/studio/index.html
+
+https://developer.android.com/studio/command-line/sdkmanager.html#options
+
 ##### ADB连接夜神模拟器
 - 进入夜神安装目录
 ```
