@@ -39,7 +39,7 @@ chsh -s /bin/bash
 * [Robo 3T](https://robomongo.org/)    `MongoDB工具`
 * [Redis Desktop Manager](https://redisdesktop.com/download)    `Redis工具`
 
-```
+```bash
 alias hexos='hexo clean && hexo generate && hexo server'
 alias hexod='hexo clean && hexo generate && hexo deploy && hexo backup'
 
@@ -51,21 +51,21 @@ PATH=$PATH:$JAVA_HOME/bin
 export JAVA_HOME JRE_HOME CLASS_PATH PATH
 
 # Maven环境配置
-MAVEN_HOME="/Users/zhongyu/Applications/apache-maven-3.5.2"
+MAVEN_HOME="/Users/username/Applications/apache-maven-3.5.2"
 PATH=$PATH:$MAVEN_HOME/bin
 MAVEN_OPTS="-Xms128m  -Xmx512m"
 export MAVEN_HOME MAVEN_OPTS PATH
 
 # JMeter环境
-export PATH="/Users/zhongyu/Applications/apache-jmeter-3.3/bin"
+export PATH="/Users/username/Applications/apache-jmeter-3.3/bin"
 
 # Android环境
-ANDROID_HOME="/Users/zhongyu/Applications/android-sdk"
+ANDROID_HOME="/Users/username/Applications/android-sdk"
 PATH=$ANDROID_HOME/platform-tools:$PATH
 PATH=$ANDROID_HOME/tools:$PATH
 PATH=$ANDROID_HOME/tools/bin:$PATH
 export ANDROID_HOME PATH
 
 # WebDriver
-export PATH="/Users/zhongyu/Applications/driver:${PATH}"
+export PATH="/Users/username/Applications/driver:${PATH}"
 ```
