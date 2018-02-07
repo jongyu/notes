@@ -4,6 +4,6 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 ```
 
 #### 安装插件
-
+sftp - 打开远程服务器上的文件
 ConvertToUTF8 - 支持中文	<br>
 OmniMarkupPreviewer - 预览.md文件  `Ctrl + Alt + O`
