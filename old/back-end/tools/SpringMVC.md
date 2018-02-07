@@ -5,7 +5,7 @@
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-webmvc</artifactId>
-    <version>4.3.7.RELEASE</version>
+    <version>4.3.14.RELEASE</version>
 </dependency>
 ```
 
@@ -32,7 +32,7 @@
 <dependency>
     <groupId>com.alibaba</groupId>
     <artifactId>fastjson</artifactId>
-    <version>1.2.23</version>
+    <version>1.2.46</version>
 </dependency>
 ```
 
@@ -51,7 +51,7 @@
 <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-databind</artifactId>
-    <version>2.8.5</version>
+    <version>2.9.4</version>
 </dependency>
 ```
 

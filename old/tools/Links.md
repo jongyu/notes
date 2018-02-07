@@ -54,7 +54,6 @@
 
 #### 工具
 [Chrome](https://www.google.com/chrome/browser/desktop/index.html?standalone=1)	|
-* zsh <br>
 [oh-my-zsh终端用户名屏蔽设置](http://blog.csdn.net/z3512498/article/details/51245853)  |
 [Package Control](https://packagecontrol.io/installation)	|
 [zsh配色方案](http://www.cnblogs.com/weixuqin/p/7029177.html) |

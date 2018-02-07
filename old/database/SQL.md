@@ -60,3 +60,17 @@ delete from 表名 [where clause];
 ```sql
 select 列名1,列名2 from 表名1,表名2[where clause];
 ```
+
+7.多表查询
+```sql
+select
+	dist.id 渠道ID, kind.id 幼儿园ID, g.class_id 班级ID, grade.grade 年级ID,
+	dist.`name` 渠道, kind.`name` 幼儿园, grade.`name` 年级, class.name 班级
+from
+	guardian g
+	left join grade grade on grade.id = (select clazz.grade_id from clazz where clazz.id = g.class_id)
+	left join clazz class on class.id = g.class_id
+	left join kindergarten kind on kind.id = g.kind_id
+	left join distributors dist on kind.distributor_id = dist.id
+where g.phone = 17621253507;
+```

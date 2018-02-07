@@ -5,7 +5,7 @@
 <dependency>
     <groupId>com.alibaba</groupId>
     <artifactId>druid</artifactId>
-    <version>1.0.29</version>
+    <version>1.1.7</version>
 </dependency>
 ```
 

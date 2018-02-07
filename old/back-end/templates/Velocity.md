@@ -11,7 +11,7 @@
 ```
 
 * velocity.properties
-```
+```properties
 input.encoding=UTF-8
 output.encoding=UTF-8
 ```

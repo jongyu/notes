@@ -5,7 +5,7 @@
 <dependency>
     <groupId>org.projectlombok</groupId>
     <artifactId>lombok</artifactId>
-    <version>1.16.16</version>
+    <version>1.16.20</version>
 </dependency>
 ```
 

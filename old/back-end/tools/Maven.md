@@ -52,7 +52,7 @@ mvn install:install-file -Dfile=guava-23.0.jar -DgroupId=storm -DartifactId=guav
         <plugin>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-maven-plugin</artifactId>
-            <version>9.4.7.v20170914</version>
+            <version>9.4.8.v20171121</version>
             <configuration>
                 <scanIntervalSeconds>1</scanIntervalSeconds>
                 <httpConnector>
@@ -68,7 +68,7 @@ mvn install:install-file -Dfile=guava-23.0.jar -DgroupId=storm -DartifactId=guav
 ```
 
 * pom中使用阿里云Maven中央仓库
-```
+```xml
 <repositories>
     <repository>
         <id>aliyun</id>
