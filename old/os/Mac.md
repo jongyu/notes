@@ -40,32 +40,33 @@ chsh -s /bin/bash
 * [Redis Desktop Manager](https://redisdesktop.com/download)    `Redis工具`
 
 ```bash
+### Hexo ###
 alias hexos='hexo clean && hexo generate && hexo server'
 alias hexod='hexo clean && hexo generate && hexo deploy && hexo backup'
 
-# Java环境配置
-JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home"
+### Java环境 ###
+JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home"
 CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 JRE_HOME=$JAVA_HOME/jre
 PATH=$PATH:$JAVA_HOME/bin
 export JAVA_HOME JRE_HOME CLASS_PATH PATH
 
-# Maven环境配置
-MAVEN_HOME="/Users/username/Applications/apache-maven-3.5.2"
+### Maven环境 ###
+MAVEN_HOME="/Users/zhongyu/Applications/apache-maven-3.5.2"
 PATH=$PATH:$MAVEN_HOME/bin
 MAVEN_OPTS="-Xms128m  -Xmx512m"
 export MAVEN_HOME MAVEN_OPTS PATH
 
-# JMeter环境
-export PATH="/Users/username/Applications/apache-jmeter-3.3/bin"
-
-# Android环境
-ANDROID_HOME="/Users/username/Applications/android-sdk"
+### Android环境 ###
+ANDROID_HOME="/Users/zhongyu/Applications/android-sdk"
 PATH=$ANDROID_HOME/platform-tools:$PATH
 PATH=$ANDROID_HOME/tools:$PATH
 PATH=$ANDROID_HOME/tools/bin:$PATH
 export ANDROID_HOME PATH
 
-# WebDriver
-export PATH="/Users/username/Applications/driver:${PATH}"
+### WebDriver环境 ###
+export PATH="/Users/zhongyu/Applications/webdriver:${PATH}"
+
+### JMeter环境  ###
+export PATH="/Users/zhongyu/Applications/apache-jmeter-4.0/bin:${PATH}"
 ```
