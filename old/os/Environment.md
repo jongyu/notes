@@ -14,9 +14,14 @@
 
 `Path`=`%MAVEN_HOME%\bin`
 
+#### Android for Windows
+`ANDROID_HOME`=`G:\DevelopmentTools\android-sdk`
+`Path`=`%ANDROID_HOME%\tools`&`%ANDROID_HOME%\tools\bin`&`%ANDROID_HOME%\platform-tools`
+
+
 #### Java for Mac
 ```
-JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home"
+JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home"
 CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 JRE_HOME=$JAVA_HOME/jre
 PATH=$PATH:$JAVA_HOME/bin
@@ -29,10 +34,13 @@ MAVEN_HOME="/Users/zhongyu/Applications/apache-maven-3.5.2"
 PATH=$PATH:$MAVEN_HOME/bin
 MAVEN_OPTS="-Xms128m  -Xmx512m"
 export MAVEN_HOME MAVEN_OPTS PATH
-````
-
-#### WebDriver for Mac
 ```
-PATH="/Users/zhongyu/Applications/driver:${PATH}"
-export PATH
+
+#### Android for Mac
+```
+ANDROID_HOME="/Users/zhongyu/Applications/android-sdk"
+PATH=$ANDROID_HOME/platform-tools:$PATH
+PATH=$ANDROID_HOME/tools:$PATH
+PATH=$ANDROID_HOME/tools/bin:$PATH
+export ANDROID_HOME PATH
 ```
