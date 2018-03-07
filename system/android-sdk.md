@@ -10,7 +10,7 @@ sdkmanager "platform-tools" "platforms;android-25"
 
 3、安装软件
 ```
-sdkmanager "build-tools;27.0.3"
+sdkmanager "build-tools;25.0.0"
 ```
 
 4、卸载软件
