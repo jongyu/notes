@@ -69,3 +69,74 @@ git init
 ```shell
 git clone 仓库地址 自定义本地名称
 ```
+
+- 添加文件
+
+```bash
+git add file_name
+或者 添加所有文件
+git add .
+git add --all
+```
+
+- 提交代码
+
+```bash
+git commit -m '修改原因，相关说明信息'
+```
+
+- 添加远程仓库地址
+
+```bash
+git remote add origin git@github.com:username/repo.git
+```
+
+- 推送到远程
+
+```bash
+git push -u origin master
+```
+
+## 分支
+
+- 查看本地分支
+
+```bash
+git branch
+```
+
+- 查看所有分支(包括远程)
+
+```bash
+git branch -a
+```
+
+- 创建分支
+
+```bash
+git branch 分支名称
+```
+
+- 切换分支
+
+```bash
+git checkout 分支名称
+```
+
+- 创建并切换分支
+
+```bash
+git checkout -b 分支名称
+```
+
+- 合并某分支到当前分支
+
+```bash
+git merge 分支名称
+```
+
+- 删除分支
+
+```bash
+git branch -d
+```
