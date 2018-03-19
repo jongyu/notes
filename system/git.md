@@ -34,7 +34,7 @@ git config --global user.email "你的Email"
 ssh-keygen -t rsa -C "你的Email"
 ```
 
-4、查看生存的SSH Key
+4、查看生成的SSH Key
 
 ```bash
 cat ~/.ssh/id_rsa.pub
