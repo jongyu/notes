@@ -1,34 +1,40 @@
-## Nginx
+# Nginx
 
-### Install
+## Install
 
 * 下载
+
 ```wget
 wget http://nginx.org/download/nginx-1.12.2.tar.gz
 ```
 
 * 安装依赖包
+
 ```yum
 yum install -y gcc gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-devel
 ```
 
 * 预设几个文件夹，方便等下安装的时候有些文件可以进行存放
+
 ```bash
 mkdir -p /usr/local/nginx /var/log/nginx /var/temp/nginx /var/lock/nginx
 ```
 
 * 解压Nginx
+
 ```bash
 tar -zxvf nginx-1.12.2.tar.gz
 ```
 
 * 进入解压后的目录
+
 ```bash
 cd nginx-1.12.2/
 ```
 
 * 编译配置
-```
+
+```shell
 ./configure \
 --prefix=/usr/local/nginx \
 --pid-path=/var/local/nginx/nginx.pid \
@@ -45,7 +51,8 @@ cd nginx-1.12.2/
 ```
 
 * 编译安装
-```
+
+```shell
 make && make install
 ```
 
