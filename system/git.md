@@ -55,3 +55,17 @@ ssh git@github.com
 ```shell
 ssh git@git.coding.net
 ```
+
+## 使用
+
+- 初始化一个本地仓库
+
+```shell
+git init
+```
+
+- 克隆一个远程仓库到本地,`自定义本地名称`是可选的
+
+```shell
+git clone 仓库地址 自定义本地名称
+```
