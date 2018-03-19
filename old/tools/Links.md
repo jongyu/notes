@@ -68,6 +68,7 @@
 [zsh配色方案](http://www.cnblogs.com/weixuqin/p/7029177.html) |
 [Maven版本校验 Version Range的支持](http://maven.apache.org/enforcer/enforcer-rules/versionRanges.html)  |
 [微信公众号测试平台](https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login)    |
+[macOS 恢复U盘制作](https://www.iplaysoft.com/macos-usb-install-drive.html) |
 
 #### Hexo
 
