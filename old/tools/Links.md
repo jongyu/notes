@@ -17,7 +17,8 @@
 [Spring](https://spring.io/)  |
 [WebMagic](http://webmagic.io/)   |
 [Elasticsearch](https://www.elastic.co/guide/cn/elasticsearch/guide/currentndex.html)   |
-[Jhipster](http://www.jhipster.tech/) |
+[Jhipster](http://www.jhipster.tech/)   |
+[GraphQL](http://graphql.cn/)   |
 
 #### 编程学习
 [tutorialspoint](http://www.tutorialspoint.com/)	|
