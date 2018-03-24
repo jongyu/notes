@@ -5,7 +5,7 @@
 * 下载
 
 ```wget
-wget http://nginx.org/download/nginx-1.12.2.tar.gz
+wget http://nginx.org/download/nginx-1.10.3.tar.gz
 ```
 
 * 安装依赖包
@@ -23,13 +23,13 @@ mkdir -p /usr/local/nginx /var/log/nginx /var/temp/nginx /var/lock/nginx
 * 解压Nginx
 
 ```bash
-tar -zxvf nginx-1.12.2.tar.gz
+tar -zxvf nginx-1.10.3.tar.gz
 ```
 
 * 进入解压后的目录
 
 ```bash
-cd nginx-1.12.2/
+cd nginx-1.10.3/
 ```
 
 * 编译配置
