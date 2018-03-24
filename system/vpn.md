@@ -28,11 +28,11 @@ chmod +x bbr.sh
 
 复制过去以后便会自动开始当显示./bbr.sh 的时候回车
 
-[none](https://user-images.githubusercontent.com/34980980/37384008-33e9d8d0-2787-11e8-8156-bcffc955149e.png)
+![none](https://user-images.githubusercontent.com/34980980/37384008-33e9d8d0-2787-11e8-8156-bcffc955149e.png)
 
 到这个界面的时候再按回车
 
-[node](https://user-images.githubusercontent.com/34980980/37384163-3aeb94ec-2788-11e8-8898-458788f429b8.png)
+![node](https://user-images.githubusercontent.com/34980980/37384163-3aeb94ec-2788-11e8-8898-458788f429b8.png)
 
 ### 出现这个地方的时候输入n不重启直接继续（也别关掉窗口重开，不然会SSH连接不上）并直接跳转第5步继续
 
