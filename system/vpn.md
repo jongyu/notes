@@ -1,4 +1,4 @@
-# [Bigdongdong](https://www.youtube.com/channel/UCpPswAyGzdRwWmiW5oTNnvA)
+# [Youtube -> Bigdongdong教程](https://www.youtube.com/channel/UCpPswAyGzdRwWmiW5oTNnvA)
 
 1、切换到root用户
 
