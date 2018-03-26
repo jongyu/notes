@@ -23,3 +23,5 @@ sdkmanager "build-tools;25.0.0"
 ```shell
 sdkmanager --uninstall "build-tools;27.0.3"
 ```
+
+## ADB命令
