@@ -1,101 +1,61 @@
 # Git
 
-## 安装
+## SSH Key
 
-- 下载地址
+- 生成SSH Key
 
-[淘宝下载](https://npm.taobao.org/mirrors/git-for-windows/) *推荐*
-
-[官网下载](https://git-scm.com/download/) *速度慢*
-
-- 安装
-
-Windows直接点击`next`就可以了
-
-Mac 推荐使用Homenrew安装`brew install git`、或者下载Xcode
-
-- 设置
-
-1、告诉Git你的名字
-
-```bash
-git config --global user.name "你的名字"
 ```
-
-2、告诉Git你的邮箱
-
-```bash
-git config --global user.email "你的Email"
-```
-
-3、生存SSH Key用于验证,输入后回车完成即可
-
-```bash
 ssh-keygen -t rsa -C "你的Email"
 ```
 
-4、查看生成的SSH Key
+- 查看生产的公钥
 
-```bash
+```
 cat ~/.ssh/id_rsa.pub
 ```
 
-5、将SSH Key复制到服务器 SSH公钥中
+## Git使用
 
-[GitHub](https://github.com/settings/keys)
+- Git的全局设置
 
-[Coding](https://coding.net/user/account/setting/keys)
-
-6、验证是否成功
-
-```shell
-ssh git@github.com
+```
+git config --global user.name "name"
+git config --global user.email "email"
 ```
 
-```shell
-ssh git@git.coding.net
+- 创建一个新的存储库
+
 ```
-
-## 使用
-
-- 初始化一个本地仓库
-
-```shell
-git init
-```
-
-- 克隆一个远程仓库到本地,`自定义本地名称`是可选的
-
-```shell
-git clone 仓库地址 自定义本地名称
-```
-
-- 添加文件
-
-```bash
-git add file_name
-或者 添加所有文件
-git add .
-git add --all
-```
-
-- 提交代码
-
-```bash
-git commit -m '修改原因，相关说明信息'
-```
-
-- 添加远程仓库地址
-
-```bash
-git remote add origin git@github.com:username/repo.git
-```
-
-- 推送到远程
-
-```bash
+git clone git@git.com:username/repo.git
+cd repo
+touch README.md
+git add README.md
+git commit -m "add README"
 git push -u origin master
 ```
+
+- 现有的文件夹
+
+```
+cd existing_folder
+git init
+git remote add origin git@git.com:username/repo.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+```
+
+- 现有的Git仓库
+
+```
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin git@git.com:username/repo.git
+git push -u origin --all
+git push -u origin --tags
+```
+
+## 分支
 
 ## 分支
 
@@ -139,4 +99,42 @@ git merge 分支名称
 
 ```bash
 git branch -d
+```
+
+## Git克隆某个单独目录或文件
+
+* 创建文件夹
+```
+mkdir project_folder
+```
+
+* 进入目录
+```
+cd project_folder
+```
+
+* 初始化Git仓库
+```
+git init
+```
+
+* 添加远程仓库地址
+```
+git remote add -f origin git@github.com:zhongyua/Documents.git
+```
+
+* 开启稀疏模式
+```
+git config core.sparsecheckout true
+```
+
+* 设置需要的默认或文件
+```
+echo "back-end/tools" >> .git/info/sparse-checkout
+echo "back-end/Flink.md" >> .git/info/sparse-checkout
+```
+
+* 拉取远程仓库
+```
+git pull origin master
 ```

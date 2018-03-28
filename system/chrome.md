@@ -1,4 +1,4 @@
-#### 安装浏览器
+# Chrome
 ```url
 http://www.google.cn/chrome/browser/desktop/index.html?standalone=1
 ```

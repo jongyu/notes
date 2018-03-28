@@ -1,4 +1,4 @@
-## 安装Hexo
+# 安装Hexo
 
 ```
 npm config set registry https://registry.npm.taobao.org
