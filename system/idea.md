@@ -1,4 +1,4 @@
-#### 激活地址
+# 激活地址
 * lanyus
 ```url
 http://idea.lanyus.com/
