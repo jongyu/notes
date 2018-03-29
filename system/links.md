@@ -55,6 +55,7 @@
 #### 例子
 
 [Mkyong.com](http://www.mkyong.com/)
+[Selenium学习](http://www.seleniumframework.com/)
 
 #### CSND
 
