@@ -111,4 +111,5 @@ ThisCrackLicenseId-{
 - .env files support
 - .ignore
 - BashSupport
-- Translation id：`2ce04f208dd25f35` 密钥：`zO9bgWBtvvE2RcRLJOlzMjaOPUaDCnhy`
+- Grep Console
+- TranslationPlugin id：`2ce04f208dd25f35` 密钥：`zO9bgWBtvvE2RcRLJOlzMjaOPUaDCnhy`
