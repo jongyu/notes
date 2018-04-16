@@ -41,3 +41,10 @@ pipenv shell
 ```shell
 pipenv uninstall --all
 ```
+
+- Python库
+```
+pipenv install Appium-Python-Client
+pipenv install ConfigParser
+pipenv install HTMLTestRunner
+```
