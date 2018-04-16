@@ -222,6 +222,25 @@ social:
   Facebook: https://facebook.com/ZhongYuOwO || facebook
 ```
 
+- 不蒜子
+```
+busuanzi_count:
+  # count values only if the other configs are false
+  enable: true
+  # custom uv span for the whole site
+  site_uv: true
+  site_uv_header: 本站访客数
+  site_uv_footer: 人次
+  # custom pv span for the whole site
+  site_pv: true
+  site_pv_header: 本站总访问量
+  site_pv_footer: 次
+  # custom pv span for one page only
+  page_pv: true
+  page_pv_header: 本文总阅读量
+  page_pv_footer: 次
+```
+
 #### 插件
 ```
 cnpm install shelljs --save
