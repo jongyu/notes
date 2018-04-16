@@ -55,6 +55,32 @@ scp root@192.168.0.1:/tmp/20170905134034.csv /Users/zhongyu/Downloads/
 scp -P58404 root@192.168.0.1:/tmp/20170905134034.csv /Users/zhongyu/Downloads/
 ```
 
+#### tail命令
+- 查看
+```
+tail fileName
+```
+
+- 显示文件的最后20行
+```
+tail -n 20 fileName
+```
+
+- 从第20行开始显示到文件结束
+```
+tail -n +20 fileName
+```
+
+- 监视文件(默认最后10行,相当于增加参数 -n 10)
+```
+tail -f fileName
+```
+
+- 逆向显示fileName的最后10行
+```
+tail -r -n 10 fileName
+```
+
 #### 使用阿里云的源
 * 备份原来的配置
 ```
