@@ -74,3 +74,17 @@ from
 	left join distributors dist on kind.distributor_id = dist.id
 where g.phone = 17621253507;
 ```
+
+8.月利润查询
+```sql
+SELECT
+	machine_id 机器编号,
+	DATE_FORMAT(ecsp.day_date,'%Y-%m') 年月,
+	( sum(accum_profit) ) 实际利润
+FROM
+	machine_day_profit ecsp
+WHERE
+	MONTH ( now( ) ) - MONTH ( day_date ) = 0
+GROUP BY
+	machine_id
+```
