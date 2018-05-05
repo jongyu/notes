@@ -17,9 +17,9 @@
     <url>http://maven.aliyun.com/nexus/content/groups/public</url>
     <mirrorOf>central</mirrorOf>
 </mirror>
+```
 
 - 指定项目中使用的远程仓库
-
 ```xml
 <repositories>
     <repository>
