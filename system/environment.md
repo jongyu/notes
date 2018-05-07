@@ -37,11 +37,13 @@ export MAVEN_HOME MAVEN_OPTS PATH
 ```
 
 ### Java&Maven
+```bash
 export MAVEN_HOME="/usr/software/apache-maven-3.5.3"
 export MAVEN_OPTS="-Xms128m  -Xmx512m"
 export JAVA_HOME="/usr/software/jdk1.8.0_171"
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export PATH=$MAVEN_HOME/bin:$JAVA_HOME/bin:$MAVEN_OPTS:$PATH
+```
 
 #### Android for Mac
 ```
