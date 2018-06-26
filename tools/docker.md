@@ -88,7 +88,7 @@ docker stop 容器ID
 - 删除容器
 ```
 docker rm 容器ID
-``
+```
 
 - 产看容器所在目录
 ```
