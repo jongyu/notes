@@ -90,7 +90,7 @@ docker stop 容器ID
 docker rm 容器ID
 ``
 
--- 产看容器所在目录
+- 产看容器所在目录
 ```
 docker inspect mongo | grep "Source"
 ```
