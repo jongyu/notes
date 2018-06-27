@@ -13,7 +13,7 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 ```
 
 ```
-cnpm install hexo-cli -g
+npm i hexo-cli -g
 ```
 
 
@@ -26,33 +26,28 @@ cd blog
 ```
 
 ```
-cnpm install
+npm i
 ```
 
 ```
-cnpm install hexo-deployer-git --save
+npm i hexo-deployer-git --save
 ```
 
 ```
-cnpm install hexo-generator-feed --save
+npm i hexo-generator-feed --save
 ```
 
 ```
-cnpm install hexo-generator-sitemap --save
+npm i hexo-generator-sitemap --save
 ```
 
 ```
-cnpm install hexo-generator-baidu-sitemap --save
+npm i hexo-generator-baidu-sitemap --save
 ```
 
 - or
 ```
-cnpm install hexo-deployer-git hexo-generator-feed hexo-generator-sitemap hexo-generator-baidu-sitemap --save
-```
-
-- 备份插件
-```
-npm install hexo-git-backup --save
+npm i hexo-deployer-git hexo-generator-feed hexo-generator-sitemap hexo-generator-baidu-sitemap --save
 ```
 
 ```
@@ -265,6 +260,27 @@ var exec = require('child_process').exec;
 hexo.on('new', function(data){
     exec('open -a "markdown编辑器绝对路径.app" ' + data.path);
 });
+```
+
+##### Hexo备份插件
+- 安装插件
+```
+npm i hexo-git-backup --save
+```
+
+- 在站点配置文件`_config.yml`添加以下内容
+```yml
+backup:
+    type: git
+    theme: next,landscape
+    repository:
+       github: git@github.com:xxx/xxx.git,branchName
+       gitcafe: git@github.com:xxx/xxx.git,branchName
+```
+
+- 使用`hexo backup`命令进行备份操作
+```
+hexo b
 ```
 
 ##### Hexo 自动备份
