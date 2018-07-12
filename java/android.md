@@ -35,6 +35,17 @@ https://developer.android.com/studio/command-line/sdkmanager.html#options
 ```
 adb devices
 ```
+
+- 查看Android版本
+```
+adb shell getprop ro.build.version.release
+```
+
+- 查看APK的package
+```
+aapt dump badging "xxx.apk"
+```
+
 - 上传文件(文件夹)
 
 ```
