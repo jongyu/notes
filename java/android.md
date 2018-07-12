@@ -41,7 +41,7 @@ adb devices
 adb shell getprop ro.build.version.release
 ```
 
-- 查看APK的package
+- 查看APK的package和appActivity
 ```
 aapt dump badging "xxx.apk"
 ```
