@@ -22,8 +22,8 @@
 
 - Java & Maven
 ```bash
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home"
-export MAVEN_HOME="/Users/zhongyu/Applications/apache-maven-3.5.3"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home"
+export MAVEN_HOME="/Users/zhongyu/Applications/apache-maven-3.5.4"
 export MAVEN_OPTS="-Xms128m  -Xmx512m"
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export PATH=$MAVEN_HOME/bin:$JAVA_HOME/bin:$MAVEN_OPTS:$PATH
