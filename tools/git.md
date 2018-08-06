@@ -138,3 +138,8 @@ echo "back-end/Flink.md" >> .git/info/sparse-checkout
 ```
 git pull origin master
 ```
+
+- git shell
+```
+alias push='echo "输入提交消息：" && read message && git add . && git commit -m "$message" && git push'
+```
