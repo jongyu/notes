@@ -24,6 +24,17 @@ sdkmanager "build-tools;25.0.0"
 sdkmanager --uninstall "build-tools;27.0.3"
 ```
 
+### 可用代理
+- 大连东软信息学院(端口`80`))
+``` 
+mirrors.neusoft.edu.cn
+```
+
+- 郑州大学(端口`80`))
+``` 
+mirrors.zzu.edu.cn
+```
+
 ## ADB命令
 
 https://developer.android.com/studio/index.html
