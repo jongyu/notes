@@ -57,6 +57,11 @@ adb shell getprop ro.build.version.release
 aapt dump badging "xxx.apk"
 ```
 
+- 查看当前的Activity
+```
+adb shell dumpsys activity top
+```
+
 - 上传文件(文件夹)
 
 ```
