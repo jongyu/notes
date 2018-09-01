@@ -2,6 +2,7 @@
 ```
 npm i -g @angular/cli
 ```
+
 - 查看版本
 ```
 ng -v
