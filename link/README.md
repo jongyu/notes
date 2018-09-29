@@ -11,6 +11,9 @@
 [短链接生成](http://dwz.wailian.work/)
 [Excel函数](http://t.cn/RkuOfQB)
 [Markdown 语法](https://coding.net/help/doc/project/markdown.html)
+[激活Charles](https://zhile.io/2017/07/07/charles-proxy-usage-and-license.html)
+[假地址生成](https://www.fakeaddressgenerator.com/)
+[下载旧版本的Xcode](https://developer.apple.com/download/more/?name=Xcode)
 
 ### 开发相关
 [Python库](https://pypi.org/)
@@ -24,6 +27,10 @@
 [慕课网](https://www.imooc.com/)
 [GitChat](http://gitbook.cn)
 [tutorialspoint](https://www.tutorialspoint.com/index.htm)
+[programcreek](https://www.programcreek.com/)
+[AppiumPro](https://appiumpro.com/)
+[移动自动化](https://developers.perfectomobile.com/)
+[App性能测试](https://www.appetizer.io/)
 
 ### 测试教程网站
 [谷歌测试博客](https://testing.googleblog.com/)
