@@ -52,5 +52,39 @@ list
 ```robot
 catenate
     ${var }    Catenate    Hello    World    ！
-    log    ${var
+    log    ${var}
+```
+
+- 时间
+```robot
+time
+    ${var}    get time
+    log    ${var}
+    sleep    5
+    ${var}    get time
+    log    ${var}
+```
+
+- if判断
+```robot
+if
+    ${var}    Set variable    100
+    run keyword if    ${var}>=90    log    优秀
+    ...    ELSE IF    ${var}<=70    log    良好
+    ...    ELSE IF    ${var}<=60    log    及格
+    ...    ELSE    log    不及格
+```
+
+- for循环
+```robot
+for
+    : FOR    ${var}    IN RANGE    10
+    \    log    ${var}
+```
+
+- 强大的Evaluate
+```robot
+evaluate
+    ${var}    Evaluate    random.randint(1,100)    random
+    log    ${var}
 ```
