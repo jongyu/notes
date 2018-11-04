@@ -32,3 +32,25 @@ End web test
 ```
 robot demo.robot
 ```
+
+## 基础
+- 定义变量
+```robot 
+variable
+    ${var}    Set Variable    Hello World！
+    log    ${var}
+```
+
+- 定义列表
+```robot
+list
+    ${var}    Create List    A    B    C
+    log    ${var}
+```
+
+- 连接字符串
+```robot
+catenate
+    ${var }    Catenate    Hello    World    ！
+    log    ${var
+```
