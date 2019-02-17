@@ -10,7 +10,7 @@ server {
     server_name  localhost;
     # 路径
     location / {
-        # 代理的具体地址
+        # 真实地址
         proxy_pass http://127.0.0.1:8080;
         index  index.html index.htm;
     }
@@ -25,6 +25,23 @@ server {
     location / {
         proxy_pass http://127.0.0.1:8081;
         index  index.html index.htm;
+    }
+}
+```
+
+## 负载均衡
+```conf
+upstream app {
+    server 127.0.0.1:8080;
+    server 127.0.0.1:8081;
+}
+
+server {
+    listen       80;
+    server_name  localhost;
+
+    location / {
+        proxy_pass http://app;
     }
 }
 ```
