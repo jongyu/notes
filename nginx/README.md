@@ -32,6 +32,7 @@ server {
 ## 负载均衡
 ```conf
 upstream app {
+    # ip_hash;
     server 127.0.0.1:8080;
     server 127.0.0.1:8081;
 }
