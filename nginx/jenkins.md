@@ -1,0 +1,20 @@
+# Nginx代理Jenkins服务
+```
+location / {
+        proxy_pass http://127.0.0.1:8080;
+        sendfile off;
+        proxy_set_header   Host             $host:$server_port;
+        proxy_set_header   X-Real-IP        $remote_addr;
+        proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+        proxy_max_temp_file_size 0;
+        client_max_body_size       10m;
+        client_body_buffer_size    128k;
+        proxy_connect_timeout      90;
+        proxy_send_timeout         90;
+        proxy_read_timeout         90;
+        proxy_temp_file_write_size 64k;
+        proxy_http_version 1.1;
+        proxy_request_buffering off;
+        proxy_buffering off;
+}
+```
