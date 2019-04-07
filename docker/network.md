@@ -25,7 +25,7 @@ docker network create --driver=bridge --subnet=172.28.0.0/16  --ip-range=172.28.
 docker run --name nginx -d -p 80:80 \
 -v /root/nginx.conf:/etc/nginx/nginx.conf:ro \
 -v /root/site:/usr/share/nginx/html:ro \
---net=net --ip 172.28.0.3 nginx
+--net=networkName --ip 172.28.0.3 nginx
 ```
 
 - 查看所有容器的IP
