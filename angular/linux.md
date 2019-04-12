@@ -37,3 +37,55 @@ npm i --unsafe-perm
 ```
 ng build --prod --aot
 ```
+
+## Nginx
+- 安装Nginx
+```
+apt install nginx
+```
+
+- 查看Nginx状态
+```
+systemctl status nginx
+```
+
+- 关闭Nginx
+```
+systemctl stop nginx
+```
+
+- 启动Nginx
+```
+systemctl start nginx
+```
+
+- 重启Nginx
+```
+systemctl restart nginx
+```
+
+- 重新加载Nginx配置
+```
+systemctl reload nginx
+```
+
+- 禁用Nginx服务
+```
+systemctl disable nginx
+```
+
+- 启用Nginx服务
+```
+systemctl enable nginx
+```
+
+### Nginx目录
+- 配置目录
+```
+/etc/nginx/nginx.conf
+```
+
+- 错误日志
+```
+tail -f /var/log/nginx/error.log
+```
