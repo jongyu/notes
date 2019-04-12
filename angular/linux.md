@@ -22,6 +22,11 @@ export NODE_HOME=/usr/local/node-v10.15.3-linux-x64
 export PATH=$NODE_HOME/bin:$PATH
 ```
 
+5.安装命令行工具
+```
+npm install -g @angular/cli
+```
+
 ## 打包
 - 安装依赖
 ```
