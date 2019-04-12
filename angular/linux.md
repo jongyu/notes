@@ -32,3 +32,8 @@ npm install -g @angular/cli
 ```
 npm i --unsafe-perm
 ```
+
+- 打包部署
+```
+ng build --prod --aot
+```
