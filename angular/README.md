@@ -30,3 +30,12 @@ ng g s service/serviceName
 ```
 ng build --prod --aot
 ```
+
+## VSCode
+1.安装的插件`Angular Snippets`
+2.代码格式化快捷键
+```
+Windows: shift + alt + f
+Mac: shift + option + f
+Linux: control + shift  + i
+```
