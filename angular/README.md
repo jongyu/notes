@@ -8,8 +8,8 @@ npm i -g @angular/cli
 
 - 创建一个应用
 ```
-ng new app-name
-ng new app-name -si --routing #指定启用路由功能
+ng new appName -D=true --style=scss --routing=true
+ng new appName -D=true --style=scss --routing=false
 ```
 
 - 启动服务
@@ -21,16 +21,12 @@ ng serve --open #打开浏览器
 
 - 生成组件
 ```
-ng g component componentName
+ng g c componentName
+ng g s serviceName
 ```
 
-- 测试
-```
-ng test
-```
 
 - 打包
 ```
-ng build --aot
-ng build --prod
+ng build --prod --aot
 ```
