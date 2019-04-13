@@ -21,8 +21,8 @@ ng serve --open #打开浏览器
 
 - 生成组件
 ```
-ng g c componentName
-ng g s serviceName
+ng g c components/componentName
+ng g s service/serviceName
 ```
 
 
