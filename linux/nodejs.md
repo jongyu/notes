@@ -42,3 +42,13 @@ npm config get registry
 ```shell
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 ```
+
+8.设置代理
+```
+export CHROMEDRIVER_CDNURL=http://npm.taobao.org/mirrors/chromedriver/
+```
+
+9、安装软件
+```
+npm i -g wd --unsafe-perm=true --allow-root
+```
