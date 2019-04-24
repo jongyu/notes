@@ -3,25 +3,25 @@
 1、下载node安装包
 
 ```shell
-wget https://nodejs.org/dist/v8.10.0/node-v8.10.0-linux-x64.tar.xz
+wget https://nodejs.org/dist/v10.15.3/node-v10.15.3-linux-x64.tar.xz
 ```
 
 2、将安装包解压成.tar文件
 
 ```shell
-xz -d node-v8.10.0-linux-x64.tar.xz
+xz -d node-v10.15.3-linux-x64.tar.xz
 ```
 
 3、将tar文件解压
 
 ```shell
-tar -xvf node-v8.10.0-linux-x64.tar -C ~/applications
+tar -xvf node-v10.15.3-linux-x64.tar -C /usr/local/
 ```
 
 4、添加环境变量
 
 ```shell
-export NODE_HOME=/root/applications/node-v8.10.0-linux-x64
+export NODE_HOME=/usr/local/node-v10.15.3-linux-x64
 export PATH=$NODE_HOME/bin:$PATH
 ```
 
