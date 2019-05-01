@@ -34,3 +34,17 @@ export PATH=$MAVEN_HOME/bin:$JAVA_HOME/bin:$MAVEN_OPTS:$PATH
 export ANDROID_HOME="/Users/zhongyu/Applications/android-sdk"
 export PATH=$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$PATH
 ```
+
+## 最新
+```bash
+export JAVA_HOME="/usr/local/jdk1.8.0_201/"
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export PATH=$JAVA_HOME/bin:$PATH
+
+export MAVEN_HOME="/usr/local/apache-maven-3.6.1"
+export MAVEN_OPTS="-Xms128m  -Xmx512m"
+export PATH=$MAVEN_HOME/bin:$MAVEN_OPTS:$PATH
+
+export NODE_HOME=/usr/local/node-v10.15.3-linux-x64
+export PATH=$NODE_HOME/bin:$PATH
+```
