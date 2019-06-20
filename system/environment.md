@@ -22,17 +22,22 @@
 
 - Java & Maven
 ```bash
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home"
-export MAVEN_HOME="/Users/zhongyu/Applications/apache-maven-3.5.4"
-export MAVEN_OPTS="-Xms128m  -Xmx512m"
+export JAVA_HOME="/usr/local/jdk1.8.0_211"
+export MAVEN_HOME="/usr/local/apache-maven-3.6.1"
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
-export PATH=$MAVEN_HOME/bin:$JAVA_HOME/bin:$MAVEN_OPTS:$PATH
+export PATH=$MAVEN_HOME/bin:$JAVA_HOME/bin:$PATH
 ```
 
 - Andorid
 ```bash
 export ANDROID_HOME="/Users/zhongyu/Applications/android-sdk"
 export PATH=$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$PATH
+```
+
+- Node.js
+```bash
+export NODE_HOME=/usr/local/node-v10.16.0-linux-x64
+export PATH=$NODE_HOME/bin:$PATH
 ```
 
 ## 最新
