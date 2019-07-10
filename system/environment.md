@@ -8,7 +8,7 @@
 `Path`=`%JAVA_HOME%\bin`&`%JAVA_HOME%\jre\bin`
 
 #### Maven for Windows
-`MAVEN_HOME`=`G:\DevelopmentTools\apache-maven-3.3.9`
+`MAVEN_HOME`=`C:\Applications\apache-maven-3.6.1`
 
 `MAVEN_OPTS`=`-Xms128m  -Xmx512m`
 
