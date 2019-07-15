@@ -46,10 +46,6 @@ export JAVA_HOME="/usr/local/jdk1.8.0_201/"
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export PATH=$JAVA_HOME/bin:$PATH
 
-export MAVEN_HOME="/usr/local/apache-maven-3.6.1"
-export MAVEN_OPTS="-Xms128m  -Xmx512m"
-export PATH=$MAVEN_HOME/bin:$MAVEN_OPTS:$PATH
-
-export NODE_HOME=/usr/local/node-v10.15.3-linux-x64
-export PATH=$NODE_HOME/bin:$PATH
+export PATH=/usr/local/apache-maven-3.6.1/bin:$PATH
+export PATH=/usr/local/node-v10.16.0-linux-x64/bin:$PATH
 ```
