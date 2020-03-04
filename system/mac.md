@@ -45,11 +45,9 @@ alias hexos='hexo clean && hexo generate && hexo server'
 alias hexod='hexo clean && hexo generate && hexo deploy && hexo backup'
 
 ### Java环境 ###
-JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home"
+JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home"
 CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
-JRE_HOME=$JAVA_HOME/jre
-PATH=$PATH:$JAVA_HOME/bin
-export JAVA_HOME JRE_HOME CLASS_PATH PATH
+export PATH=$PATH:$JAVA_HOME/jre$JAVA_HOME/bin:$CLASSPATH:$PATH
 
 ### Maven环境 ###
 MAVEN_HOME="/Users/zhongyu/Applications/apache-maven-3.5.2"
